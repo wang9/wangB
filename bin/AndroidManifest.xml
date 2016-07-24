@@ -13,8 +13,9 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+        <!-- 设置SplashActivity为第一个界面,主要的界面 -->
         <activity
-            android:name="com.itheinma.smartbj.MainActivity"
+            android:name="com.itheinma.smartbj.acativity.SplashActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,6 +23,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.itheinma.smartbj.acativity.GuideActivity"></activity>
+        <activity android:name="com.itheinma.smartbj.acativity.MainActivity"></activity>
     </application>
 
 </manifest>
