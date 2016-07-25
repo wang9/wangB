@@ -125,6 +125,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     }
     public static final class color {
         public static final int btn_colors=0x7f080000;
+        public static final int rb_colors_selector=0x7f080001;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -176,40 +177,60 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int pic_item_list_default=0x7f020024;
         public static final int pic_list_item_bg=0x7f020025;
         public static final int progress_dialog_bg=0x7f020026;
-        public static final int red_point=0x7f020027;
-        public static final int setting=0x7f020028;
-        public static final int setting_press=0x7f020029;
-        public static final int smartservice=0x7f02002a;
-        public static final int smartservice_press=0x7f02002b;
-        public static final int splash_bg_newyear=0x7f02002c;
-        public static final int splash_bg_newyear_1=0x7f02002d;
-        public static final int splash_horse_newyear=0x7f02002e;
-        public static final int splash_sheep_newyear=0x7f02002f;
-        public static final int title_red_bg=0x7f020030;
-        public static final int topic_title_arr=0x7f020031;
-        public static final int xsearch_loading=0x7f020032;
-        public static final int xsearch_msg_pull_arrow_down=0x7f020033;
+        public static final int rb_govaffairs_selector=0x7f020027;
+        public static final int rb_newscentor=0x7f020028;
+        public static final int rb_settingcenter_selector=0x7f020029;
+        public static final int rb_smartservice_selector=0x7f02002a;
+        public static final int rd_home_selector=0x7f02002b;
+        public static final int red_point=0x7f02002c;
+        public static final int setting=0x7f02002d;
+        public static final int setting_press=0x7f02002e;
+        public static final int smartservice=0x7f02002f;
+        public static final int smartservice_press=0x7f020030;
+        public static final int splash_bg_newyear=0x7f020031;
+        public static final int splash_bg_newyear_1=0x7f020032;
+        public static final int splash_horse_newyear=0x7f020033;
+        public static final int splash_sheep_newyear=0x7f020034;
+        public static final int title_red_bg=0x7f020035;
+        public static final int topic_title_arr=0x7f020036;
+        public static final int xsearch_loading=0x7f020037;
+        public static final int xsearch_msg_pull_arrow_down=0x7f020038;
     }
     public static final class id {
-        public static final int action_settings=0x7f04000c;
+        public static final int action_settings=0x7f040018;
         public static final int btn_guide_startexp=0x7f040009;
+        public static final int fl_base_content_tag=0x7f04000d;
+        public static final int fl_left_menu=0x7f040016;
+        public static final int fl_main_menu=0x7f04000e;
         public static final int fullscreen=0x7f040003;
+        public static final int ib_base_content_ment=0x7f04000c;
         public static final int iv_splash_mainview=0x7f04000a;
         public static final int left=0x7f040000;
         public static final int ll_guide_points=0x7f040007;
         public static final int margin=0x7f040002;
         public static final int none=0x7f040004;
+        public static final int rb_main_content_govaffairs=0x7f040014;
+        public static final int rb_main_content_home=0x7f040011;
+        public static final int rb_main_content_newscenter=0x7f040012;
+        public static final int rb_main_content_settingcenter=0x7f040015;
+        public static final int rb_main_content_smartservice=0x7f040013;
+        public static final int rg_content_radios=0x7f040010;
         public static final int right=0x7f040001;
         public static final int selected_view=0x7f040005;
-        public static final int slidingmenumain=0x7f04000b;
+        public static final int slidingmenumain=0x7f040017;
+        public static final int tv_base_content_title=0x7f04000b;
         public static final int v_guide_redpoint=0x7f040008;
         public static final int vp_guide_pages=0x7f040006;
+        public static final int vp_main_content_pages=0x7f04000f;
     }
     public static final class layout {
         public static final int activity_guide=0x7f030000;
-        public static final int activity_main=0x7f030001;
-        public static final int activity_splash=0x7f030002;
-        public static final int slidingmenumain=0x7f030003;
+        public static final int activity_splash=0x7f030001;
+        public static final int fragment_content_base_content=0x7f030002;
+        public static final int fragment_content_tag=0x7f030003;
+        public static final int fragment_content_view=0x7f030004;
+        public static final int fragment_left=0x7f030005;
+        public static final int slidingmenumain=0x7f030006;
     }
     public static final class menu {
         public static final int main=0x7f090000;
@@ -223,11 +244,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** 
         Base application theme, dependent on API level. This theme is replaced
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
     
 
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
+
         
 
         Base application theme for API 11+. This theme completely replaces
@@ -246,6 +269,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f070001;
+        /**  radioButon样式的抽取 
+         */
+        public static final int radioButtonStyle=0x7f070002;
     }
     public static final class styleable {
         /** Attributes that can be used with a SlidingMenu.
