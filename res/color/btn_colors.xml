@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- 颜色的状态选择器 -->
+    
+    <!-- 按钮按下的状态是黑色 -->
+    <item android:color="#000000" android:state_pressed="true"></item>
+    <!-- 按钮松开的状态 是白色-->
+    <item android:color="#ffffff" android:state_pressed="false"></item>
+    
+</selector>
